@@ -1,0 +1,51 @@
+body {
+    background: #485563; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+    font-family: Ubuntu;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.title h1 {
+    font-family: Lobster;
+    font-size: 4em;
+}
+
+.search-bar {
+    margin: 20px;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 75%;
+}
+
+.video-item img {
+    max-width: 64px;
+}
+
+.video-detail .details {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.list-group-item {
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.list-group-item:hover {
+    background-color: #eee;
+}
+
+.thumbnail {
+    margin: 0 auto;
+    width: 75%;
+}
